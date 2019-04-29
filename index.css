@@ -1,9 +1,72 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300,400,500,700');
 
 
+header {
 
+  height: 14vh;
+  width: 100%;
+  /* background-color: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
 
+.logo-container {
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+  background-color: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.logo {
+  font-family: 'Kaushan Script', cursive;
+  color: #FED035;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #fed035;
+  color: white;
+  width: 80px;
+  height: 70%;
+  margin-right: 2em;
+  border-radius: 5px;
+}
+
+.navbar {
+  /* visibility: hidden; */
+  border: 1px solid green;
+  height: 53vh;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-transform: uppercase;
+  background-color: #28282A;
+}
+
+nav {
+  margin-bottom: 2em;
+  margin-left: 1.5em;
+  color: white;
+  font-size: 14px;
+}
+
+@media (max-width: 769px) {
+  header{
+    background-color: #28282A; 
+  }
+}
 
 
 
